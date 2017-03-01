@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
     private final String BLUE_CHEESE_URL = "https://docs.google.com/forms/d/1pitt9JZfNmenfGQ4TznAdKFJYjAT8HZPqu-nEs826cU/formResponse";
     private final String G3_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfx_g9zbqds3KcdYsoa0gLq7behhZsWfXk1e3u-_-h7EBuy3A/formResponse";
     private final String[] SPREADSHEET_URLS = {BLUE_CHEESE_URL, G3_URL};
-    private int currentSpreadsheet = 0;
+    private int currentSpreadsheet = 1;
 
     public static final String[] INITALS_KEY = {"entry_1866261740", "entry_1789585754"};
     public static final String[] TEAM_NUMBER_KEY = {"entry_454837117", "entry_148913451"};
