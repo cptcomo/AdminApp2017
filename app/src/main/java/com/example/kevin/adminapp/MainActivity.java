@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
         versionText = (TextView)findViewById(R.id.versionText);
         filesListView = (ListView)findViewById(R.id.filesListView);
 
-        versionText.setText("Version: " + BuildConfig.VERSION_NAME + " - Compatible with: Prerelease 3+");
+        versionText.setText("Version: " + BuildConfig.VERSION_NAME + " - Compatible with: Version 2.0.0");
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v){
                 send();
